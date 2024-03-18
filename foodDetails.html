@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Details</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/normaliz.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+
+    <!-- ================================= Food Ditails ================================= -->
+    <!-- ========= Navbar ========= -->
+
+    <nav class="navbar navbar-expand-lg shadow">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="image/Logo/care-charity-svgrepo-com.png" alt="">
+            </a>
+
+            <!-- Button use it to display menu  -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="specialists.html">specialists</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Behavior</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="food.html">Food</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games</a>
+                    </li>
+
+                </ul>
+
+                <!-- btn Log Out -->
+                <button class="btn btn-outline-success" type="submit" id="logout">Logout</button>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- =========  Header  =========  -->
+
+    <section class="header">
+        <!-- header display by js -->
+        <div class="image-header">
+            <img src="" alt="" class="w-100" id="currentImg">
+            <h3 class="food-title" id="foodTitle"></h3>
+        </div>
+    </section>
+    <!-- Start Section Food -->
+    <section class="food-details">
+        <!-- dispaly food details by js -->
+        <div class="container">
+            <div class="row g-3">
+                <div class="row g-3">
+                    <h3 id="food-details-title"></h3>
+                    <p id="food-details-description"> </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- End Section Food -->
+
+    <!-- ========= Footer =========  -->
+    <footer class="fixed-bottom">
+        <div class="icons">
+            <p>
+                <i class="fa-regular fa-envelope text-danger"></i>
+                info@example.com
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="JS/details.js"></script>
+</body>
+
+</html>
